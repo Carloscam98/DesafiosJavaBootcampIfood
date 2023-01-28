@@ -1,5 +1,5 @@
-// Exercício dos numeros iguais.
-import java.util.*;
+// ExercÃ­cio dos numeros iguais.
+import java.util.Scanner;
 
 public class Exercicio1{
 
@@ -7,12 +7,12 @@ public class Exercicio1{
 
         Integer Num1, Num2;
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro número: ");
+        System.out.println("Digite o primeiro nÃºmero: ");
         Num1 = scan.nextInt();
-        System.out.println("Digite o segundo número: ");
-        Num2 = scan.nextInt();
+        System.out.println("Digite o segundo nÃºmero: ");
+        Num2 = scanner.nextInt();
         
         if (Num1 == Num2) {
             System.out.println("Sao iguais!");
