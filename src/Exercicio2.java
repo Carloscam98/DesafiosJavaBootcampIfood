@@ -1,3 +1,4 @@
+//Exercício soma dos multiplos.
 import java.util.Scanner;
 
 public class Exercicio2{
