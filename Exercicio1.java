@@ -10,7 +10,7 @@ public class Exercicio1{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o primeiro número: ");
-        Num1 = scan.nextInt();
+        Num1 = scanner.nextInt();
         System.out.println("Digite o segundo número: ");
         Num2 = scanner.nextInt();
         
